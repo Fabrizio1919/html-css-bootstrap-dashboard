@@ -19,7 +19,7 @@
 
 /* #region Structure Side */
 .bar_top {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 60px);
     display: flex;
     
 }
@@ -43,7 +43,7 @@
 }
 
 .bar_top > .content {
-    width: calc(100% - 70px);
+    width: calc(100% - 110px);
     overflow-y: auto;
     ;
 }
@@ -65,7 +65,19 @@ ul li {
 }
 /* #region Boolean Top */
 
+.card_left {
+    
+}
 
+.table img {
+    width: 18px;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+
+.image_grafico img {
+    max-width:100% ;
+}
 
 
 
