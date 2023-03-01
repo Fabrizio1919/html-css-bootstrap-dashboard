@@ -1,14 +1,23 @@
 :root {
     --bg-side: #051e34;
+    --bg-bol-top: #1b72e8;
 }
 
 
 
-
+/* debug */
 .debug .sidebar_bottom {
  /*    background-color: beige; */
 }
 
+.debug [class^=col]{
+ /*    border: 1px dashed black;
+    height: 100px; */
+}
+
+/* debug */
+
+/* #region Structure Side */
 .bar_top {
     height: calc(100vh - 50px);
     display: flex;
@@ -32,3 +41,39 @@
 .bar_top .sidebar_bottom {
     height: 60px;
 }
+
+.bar_top > .content {
+    width: calc(100% - 70px);
+    overflow-y: auto;
+    ;
+}
+
+ul li {
+    list-style: none;
+   
+}
+/* #endregion Structure Side */
+
+/* #region Boolean Top */
+
+.boolean_top {
+    background-color: var(--bg-bol-top);
+}
+
+.blue {
+    background-color: #165bba;
+}
+/* #region Boolean Top */
+
+
+
+
+
+
+
+
+
+
+
+
+
