@@ -1,0 +1,34 @@
+:root {
+    --bg-side: #051e34;
+}
+
+
+
+
+.debug .sidebar_bottom {
+ /*    background-color: beige; */
+}
+
+.bar_top {
+    height: calc(100vh - 50px);
+    display: flex;
+    
+}
+
+.bar_top > .sidebar {
+    width: 110px;
+    overflow: hidden;
+    background-color:var(--bg-side);
+    justify-content: space-between;
+   
+}
+
+.bar_top .sidebar_top {
+    max-height: calc(100% - 60px);
+    height: 400px;
+    overflow-y: auto;
+}
+
+.bar_top .sidebar_bottom {
+    height: 60px;
+}
