@@ -95,3 +95,10 @@ ul li {
 
 
 
+@media screen and (min-width:1200px) {
+   
+    .offcanvas{
+        width: 50vw!important;
+    }
+ 
+}
