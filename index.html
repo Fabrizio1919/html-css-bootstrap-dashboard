@@ -30,33 +30,38 @@
         <input type="text" class="form-control" style="width: 78%;" placeholder="Prova a cercare lezioni di Laravel"
             aria-label="Username" aria-describedby="basic-addon1">
         <!-- ./input -->
-        <div class="option_search align-items-center d-flex mx-3 gap-3">
+        <div class="option_search align-items-center d-flex mx-3 gap-2">
             <span>
                 <i class="fa-solid fa-list d-none d-xl-inline"></i>
             </span>
-            <!-- ./span -->
+            <!-- ./fa-solid fa-list d-none -->
             <span>
                 <i class="fa-solid fa-question d-none d-xl-inline"></i>
             </span>
-
+            <!-- ./fa-solid fa-question -->
             <span>
                 <i class="fa-solid fa-ellipsis-vertical d-none d-xl-inline"></i>
             </span>
-
+            <!-- ./fa-solid fa-ellipsis-vertical -->
+            
             <div class="dropdown">
                 <button type="button" class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown"
                     data-bs-display="static" aria-expanded="false">
                     <i class="fa-solid fa-bell text-warning"></i>
                 </button>
+                <!-- ./button -->
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li><a class="dropdown-item" href="#">Profilo</a></li>
                     <li><a class="dropdown-item" href="#">Fatturazione</a></li>
                     <li><a class="dropdown-item" href="#">Layout</a></li>
                 </ul>
+                <!-- ./ul -->
             </div>
+            <!--./dropdown -->
         </div>
         <!-- ./option_search -->
     </header>
+    <!-- ./site_header -->
 
     <div class="bar_top">
         <div class="sidebar d-flex flex-column">
@@ -109,12 +114,15 @@
                             <span class="badge blue d-none d-xl-inline">Boolean blog app</span>
                             <span class="badge blue d-xl-none">+</span>
                         </div>
+                        <!-- ./app_boolean -->
                     </div>
+                    <!-- col-12 col-md-4 -->
 
                     <div class="col-12 col-md-4">
                         <span class="text-white">Studenti online negli ultimi 30 minuti</span>
                         <h2 class="text-white">125</h2>
                     </div>
+                    <!-- ./col-12 col-md-4 -->
                     <div class="col-12 col-md-4 p-2">
                         <span class="text-light">Nuovo Studente</span>
 
@@ -133,6 +141,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Chiudi">
                                 </button>
                             </div>
+                            <!-- ./offcanvas-header -->
                             <div class="offcanvas-body text-black">
                                 <div class="container" id="body">
                                     <div class="row">
@@ -247,9 +256,13 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- ./offcanvas-body -->
                         </div>
+                        <!-- ./offcanvas offcanvas-end -->
                     </div>
+                    <!-- ./col-12 col-md-4 -->
                 </div>
+                <!-- .row -->
             </div>
             <!-- ./boolean_top -->
 
@@ -265,18 +278,19 @@
                                     <thead>
                                         <tr>
                                             <th class="w-50" scope="col">Nome</th>
-                                            <th scope="col">Data di inizio</th>
-                                            <th scope="col">ROI</th>
+                                            <th class="d-none d-md-table-cell" scope="col">Data di inizio</th>
+                                            <th class="d-none d-md-table-cell" scope="col">ROI</th>
                                             <th scope="col">Stato</th>
                                             <th scope="col">Azioni</th>
                                         </tr>
                                     </thead>
+                                    <!-- ./thead -->
                                     <tbody>
                                         <tr>
                                             <td scope="row"><img src="./assets/img/class-avatar.jpg" alt="">Classe 75
                                             </td>
-                                            <td>15 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
                                             <td>
                                                 <i class="fa-solid fa-pencil border border-3 text-secondary"></i>
@@ -286,8 +300,8 @@
                                         <tr>
                                             <td scope="row"><img src="./assets/img/class-avatar.jpg" alt="">Classe 76
                                             </td>
-                                            <td>16 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">16 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
                                             <td>
                                                 <i class="fa-solid fa-pencil border border-3 text-secondary"></i>
@@ -298,8 +312,8 @@
                                         <tr>
                                             <td scope="row"><img src="./assets/img/class-avatar.jpg" alt="">Classe 77
                                             </td>
-                                            <td>17 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">17 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge bg-warning">process</span></td>
                                             <td>
                                                 <i class="fa-solid fa-pencil border border-3 text-secondary"></i>
@@ -309,8 +323,8 @@
                                         <tr>
                                             <td scope="row"><img src="./assets/img/class-avatar.jpg" alt="">Classe 78
                                             </td>
-                                            <td>18 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">18 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
                                             <td>
                                                 <i class="fa-solid fa-pencil border border-3 text-secondary"></i>
@@ -321,8 +335,8 @@
                                         <tr>
                                             <td scope="row"><img src="./assets/img/class-avatar.jpg" alt="">Classe 79
                                             </td>
-                                            <td>19 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge bg-danger">failed</span></td>
                                             <td>
                                                 <i class="fa-solid fa-pencil border border-3 text-secondary"></i>
@@ -332,8 +346,8 @@
                                         <tr>
                                             <td scope="row"><img src="./assets/img/class-avatar.jpg" alt="">Classe 80
                                             </td>
-                                            <td>19 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">19 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
                                             <td>
                                                 <i class="fa-solid fa-pencil border border-3 text-secondary"></i>
@@ -344,8 +358,8 @@
                                         <tr>
                                             <td scope="row"><img src="./assets/img/class-avatar.jpg" alt="">Classe 81
                                             </td>
-                                            <td>20 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">20 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge bg-danger">failed</span></td>
                                             <td>
                                                 <i class="fa-solid fa-pencil border border-3 text-secondary"></i>
@@ -355,8 +369,8 @@
                                         <tr>
                                             <td scope="row"><img src="./assets/img/class-avatar.jpg" alt="">Classe 82
                                             </td>
-                                            <td>21 Feb 2021</td>
-                                            <td>20%</td>
+                                            <td class="d-none d-md-table-cell">21 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
                                             <td><span class="badge bg-success">Done</span></td>
                                             <td>
                                                 <i class="fa-solid fa-pencil border border-3 text-secondary"></i>
@@ -364,14 +378,19 @@
                                             </td>
                                         </tr>
                                     </tbody>
+                                    <!-- ./tbody -->
                                 </table>
+                                <!-- ./table -->
                             </div>
+                            <!-- ./card -->
                         </div>
+                        <!-- ./card -->
                         <div class="faq pt-2">
                             <div class="card">
                                 <div class="card-header">
                                     F.A.Q
                                 </div>
+                                <!-- ./card-header -->
                                 <div class="card-body">
                                     <div class="accordion accordion-flush" id="accordionFlushExample">
                                         <div class="accordion-item">
@@ -381,7 +400,9 @@
                                                     aria-expanded="false" aria-controls="flush-collapseOne">
                                                     <p>Come aggiungere un nuovo studente?</p>
                                                 </button>
+                                                <!-- ./accordion-button collapsed -->
                                             </h2>
+                                            <!-- ./h2 -->
                                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                                 aria-labelledby="flush-headingOne"
                                                 data-bs-parent="#accordionFlushExample">
@@ -391,8 +412,11 @@
                                                     <code>.accordion-flush</code>
                                                     class. This is the first item's accordion body.
                                                 </div>
+                                                <!-- ./accordion-body -->
                                             </div>
+                                            <!-- ./flush-collapseOne -->
                                         </div>
+                                        <!-- ./accordion-item -->
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="flush-headingTwo">
                                                 <button class="accordion-button collapsed" type="button"
@@ -400,7 +424,9 @@
                                                     aria-expanded="false" aria-controls="flush-collapseTwo">
                                                     <p>Come posso accedere alle informazioni del mio accout?</p>
                                                 </button>
+                                                <!-- ./accordion-button collapsed -->
                                             </h2>
+                                            <!-- ./h2 -->
                                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                                 aria-labelledby="flush-headingTwo"
                                                 data-bs-parent="#accordionFlushExample">
@@ -412,8 +438,12 @@
                                                     imagine this
                                                     being filled with some actual content.
                                                 </div>
+                                                <!-- ./accordion-body -->
                                             </div>
+                                            <!-- ./flush-collapseTwo -->
                                         </div>
+                                        <!-- ./accordion-item -->
+
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="flush-headingThree">
                                                 <button class="accordion-button collapsed" type="button"
@@ -421,7 +451,9 @@
                                                     aria-expanded="false" aria-controls="flush-collapseThree">
                                                     <p>Posso usare questa dashboard da mobile ?</p>
                                                 </button>
+                                                <!-- ./accordion-button collapsed -->
                                             </h2>
+                                            <!-- ./h2 -->
                                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                                 aria-labelledby="flush-headingThree"
                                                 data-bs-parent="#accordionFlushExample">
@@ -436,51 +468,67 @@
                                                     representative of how this would look in a real-world
                                                     application.
                                                 </div>
+                                                <!-- ./accordion-body -->
                                             </div>
+                                            <!-- ./flush-collapseThree -->
                                         </div>
+                                        <!-- ./accordion-item -->
                                     </div>
-
+                                    <!-- ./accordion accordion-flush -->
                                 </div>
+                                <!-- ./card-body -->
                             </div>
+                            <!-- ./card -->
                         </div>
+                        <!-- ./faq -->
                     </div>
+                    <!-- col-12 col-xl-8 d-flex flex-column pt-2 -->
+
                     <div class="col-12 col-xl-4 d-flex flex-column pt-2">
                         <div class="card_right">
                             <div class="card">
                                 <div class="card-header fs-4">
                                     <strong>Todo</strong>
                                 </div>
+                                 <!-- ./card-header -->
                                 <div class="card">
                                     <div class="card-body">
                                         <div class=" d-flex flex-column">
-                                            <div
-                                                class="border border-1  bg-white rounded-top d-flex align-items-center p-1">
+                                            <div class="border border-1 bg-white rounded-top d-flex align-items-center p-1">
                                                 <input class="form-check-input mt-0" type="checkbox" value=""
                                                     aria-label="Checkbox for following text input">
                                                 <span class="px-2">Kickoff nuove classi</span>
                                             </div>
-                                            <div class="border border-1  bg-white d-flex align-items-center p-1">
+                                             <!-- ./border -->
+                                            <div class="border border-1 bg-white d-flex align-items-center p-1">
                                                 <input class="form-check-input mt-0" type="checkbox" value=""
                                                     aria-label="Checkbox for following text input">
                                                 <span class="px-2">Lezione su Bootstrap 6 in classe #75</span>
                                             </div>
-                                            <div
-                                                class="border border-1  bg-white rounded-bottom d-flex align-items-center p-1">
+                                             <!-- ./border -->
+                                            <div class="border border-1 bg-white rounded-bottom d-flex align-items-center p-1">
                                                 <input class="form-check-input mt-0" type="checkbox" value=""
                                                     aria-label="Checkbox for following text input">
                                                 <span class="px-2">Controllare username github studenti</span>
                                             </div>
+                                            <!-- ./border -->
                                         </div>
+                                        <!-- ./d-flex -->
                                     </div>
+                                    <!-- ./car-body -->
                                 </div>
+                                <!-- ./card -->
                             </div>
+                            <!-- ./card -->
                         </div>
+                        <!-- ./card_right -->
                         <div class="grafico pt-2">
                             <div class="card">
                                 <div class="card-body">
                                     <div class="image_grafico">
                                         <img src="./assets/img/stats.jpeg" alt="">
                                     </div>
+                                    <!-- ./image_grafico -->
                                     <div class="utent w-60">
                                         <h5>Utenti attivi</h5>
                                         <p>Lista degli utenti attivi in piattaforma nel ultimo mese</p>
@@ -490,16 +538,23 @@
                                                 <li class="list-group-item">Febbraio 800</li>
                                                 <li class="list-group-item border-bottom">Marzo 1500</li>
                                             </ul>
+                                            <!-- ./ul -->
                                             <div class="card-body">
                                                 <a href="#" class="card-link">Visualizza report approfondito</a>
                                             </div>
+                                            <!-- ./card-body -->
                                         </div>
+                                        <!-- ./months -->
                                     </div>
+                                    <!-- utent -->
                                 </div>
-
+                                <!-- ./card-body -->
                             </div>
+                            <!-- ./card -->
                         </div>
+                        <!-- ./grafico -->
                     </div>
+                    <!-- ./col-12 col-xl-4 d-flex flex-column pt-2 -->
 
         </main>
 

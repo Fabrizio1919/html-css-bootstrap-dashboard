@@ -3,8 +3,6 @@
     --bg-bol-top: #1b72e8;
 }
 
-
-
 /* debug */
 .debug .sidebar_bottom {
  /*    background-color: beige; */
@@ -16,6 +14,8 @@
 }
 
 /* debug */
+
+
 
 /* #region Structure Side */
 .bar_top {
@@ -30,12 +30,10 @@
     background-color:var(--bg-side);
     justify-content: space-between;
     background-image: url(../img/sidebar-bg.png);  
-    
 }
 
 .bar_top .sidebar_top {
     max-height: calc(100% - 60px);
-    
     overflow-y: auto;
 }
 
@@ -46,12 +44,10 @@
 .bar_top > .content {
     width: calc(100% - 110px);
     overflow-y: auto;
-    ;
 }
 
 ul li {
     list-style: none;
-   
 }
 /* #endregion Structure Side */
 
@@ -65,10 +61,6 @@ ul li {
     background-color: #165bba;
 }
 /* #region Boolean Top */
-
-.card_left {
-    
-}
 
 .table img {
     width: 18px;
@@ -86,19 +78,17 @@ ul li {
     background-color: lightgrey;
 }
 
-
-
 .table  tr:hover {
     background-color: lightgrey;
 }
 
 
-
+/* Media query offc. */
 
 @media screen and (min-width:1200px) {
    
     .offcanvas{
         width: 50vw!important;
     }
- 
+
 }
