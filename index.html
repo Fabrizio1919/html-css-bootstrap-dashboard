@@ -32,20 +32,28 @@
         <!-- ./sinput -->
         <div class="option_search align-items-center d-flex mx-3 gap-3">
             <span>
-                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-list d-none d-xl-inline"></i>
             </span>
 
             <span>
-                <i class="fa-solid fa-question"></i>
+                <i class="fa-solid fa-question d-none d-xl-inline"></i>
             </span>
 
             <span>
-                <i class="fa-solid fa-ellipsis-vertical"></i>
+                <i class="fa-solid fa-ellipsis-vertical d-none d-xl-inline"></i>
             </span>
 
-            <span>
-                <i class="fa-solid fa-bell"></i>
-            </span>
+            <div class="dropdown">
+                <button type="button" class="btn btn-white dropdown-toggle" data-bs-toggle="dropdown"
+                    data-bs-display="static" aria-expanded="false">
+                    <i class="fa-solid fa-bell text-warning"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                    <li><a class="dropdown-item" href="#">Layout</a></li>
+                </ul>
+            </div>
         </div>
         <!-- ./option_search -->
     </header>
