@@ -31,7 +31,6 @@
     justify-content: space-between;
     background-image: url(../img/sidebar-bg.png);  
     
-   
 }
 
 .bar_top .sidebar_top {
@@ -81,10 +80,17 @@ ul li {
     max-width:100% ;
 }
 
-.table:hover tr {
-    background-color: lightgray;
+.sidebar_top .btn:hover,
+.sidebar_bottom .btn:hover
+{
+    background-color: lightgrey;
 }
 
+
+
+.table  tr:hover {
+    background-color: lightgrey;
+}
 
 
 
