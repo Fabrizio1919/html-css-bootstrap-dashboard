@@ -29,6 +29,8 @@
     overflow: hidden;
     background-color:var(--bg-side);
     justify-content: space-between;
+    background-image: url(../img/sidebar-bg.png);  
+    
    
 }
 
@@ -79,9 +81,9 @@ ul li {
     max-width:100% ;
 }
 
-
-
-
+.table:hover tr {
+    background-color: lightgray;
+}
 
 
 
