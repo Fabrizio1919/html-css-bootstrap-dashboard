@@ -34,7 +34,7 @@
 
 .bar_top .sidebar_top {
     max-height: calc(100% - 60px);
-    height: 400px;
+    
     overflow-y: auto;
 }
 
@@ -78,8 +78,6 @@ ul li {
 .image_grafico img {
     max-width:100% ;
 }
-
-
 
 
 
